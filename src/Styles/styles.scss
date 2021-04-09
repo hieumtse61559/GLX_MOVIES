@@ -1,0 +1,39 @@
+// Header
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .header__logo {
+    width: 30%;
+  }
+
+  .header__search {
+    position: relative;
+    .btn-search {
+      position: absolute;
+      right: 20px;
+      top: 5px;
+
+      background-color: white;
+      border: none;
+    }
+  }
+
+  .header__login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .btn__login {
+      border: none;
+      background-color: white;
+    }
+    .login__group:hover {
+      .person-icon,
+      .btn__login {
+        color: #f26b38;
+      }
+    }
+  }
+}
