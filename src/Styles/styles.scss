@@ -1,6 +1,6 @@
 // Header
 header {
-  height: 100px;
+  // height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -33,6 +33,32 @@ header {
       .person-icon,
       .btn__login {
         color: #f26b38;
+      }
+    }
+  }
+}
+
+// Navbar
+.nav__container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .nav__list {
+    background-color: brown;
+    display: flex;
+    
+    justify-content: space-between;
+    list-style: none;
+
+    width: 100%;
+    
+    li {
+      a {
+        color: white;
+      }
+      .dropdown-menu {
+        background-color: black !important;
       }
     }
   }

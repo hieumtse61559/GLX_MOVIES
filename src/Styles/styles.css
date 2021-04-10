@@ -1,5 +1,4 @@
 header {
-  height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -29,6 +28,26 @@ header .header__login .btn__login {
 header .header__login .login__group:hover .person-icon,
 header .header__login .login__group:hover .btn__login {
   color: #f26b38;
+}
+
+.nav__container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav__container .nav__list {
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+}
+.nav__container .nav__list li a {
+  color: white;
+}
+.nav__container .nav__list li .dropdown-menu {
+  background-color: black !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

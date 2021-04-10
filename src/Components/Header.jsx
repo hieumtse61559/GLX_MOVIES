@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="container">
       <div className="header__logo">
-        <img className="h-100 w-100" src="./img/galaxy-logo.jpg" alt="logo" />
+        <img className="w-100" height={"120px"} src="./img/galaxy-logo.jpg" alt="logo" />
       </div>
 
       {/* Thanh tìm kiếm */}
